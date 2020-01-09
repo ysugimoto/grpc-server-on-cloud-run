@@ -16,7 +16,7 @@ Type `make deploy` and it deploys Cloud Run service on full managed service with
 Install CLI client with nodejs module:
 
 ```
-npm install -g gprcc
+npm install -g grpcc
 ```
 
 And run it:
