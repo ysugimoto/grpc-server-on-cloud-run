@@ -11,3 +11,18 @@ Example gRPC server running on Cloud Run.
 
 Type `make deploy` and it deploys Cloud Run service on full managed service with name of `greeter`.
 
+## Test connection
+
+Install CLI client with nodejs module:
+
+```
+npm install -g gprcc
+```
+
+And run it:
+
+```
+grpcc -p helloworld.proto -a [Cloud Run App host]:443
+> client.sayHello({"name": "your name"}, pr)
+```
+
